@@ -43,4 +43,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
 
