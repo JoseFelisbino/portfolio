@@ -54,7 +54,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -88,12 +88,12 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao__links__links {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -104,7 +104,7 @@ body {
     font-family: var(--font-segundaria)
 }
 
-.apresentacao__links__links:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
