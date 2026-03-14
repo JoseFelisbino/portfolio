@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-img {
+.foto-perfil {
   width: 488px;
   height: 550px;
   border-radius: 10px;
@@ -61,6 +61,9 @@ body {
 }
 
 .apresentacao__links__links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -71,4 +74,8 @@ body {
     text-decoration: none;
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__links:hover {
+    background-color: #272727;
 }
